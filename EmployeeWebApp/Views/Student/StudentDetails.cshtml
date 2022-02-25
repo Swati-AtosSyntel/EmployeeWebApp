@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "StudentDetails";
+    var student = ViewBag.std;
+    var s = ViewData["std"] as EmployeeWebApp.Models.Student;
+}
+
+<h2>StudentDetails</h2>
+
+<ul>
+    <li>@student.sid</li>
+    <li>@student.sname</li>
+</ul>
+<h3>With ViewData</h3>
+<ul>
+    <li>@s.sid</li>
+    <li>@s.sname</li>
+</ul>

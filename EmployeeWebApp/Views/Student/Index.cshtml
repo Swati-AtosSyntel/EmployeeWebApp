@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<h3>You passed id as @ViewBag.data</h3>
+
+<h3>@ViewData["ID"]</h3>
+
+@Html.ActionLink("Go To HomeController Index Action","Index","Home")
+<hr/>
+<a href="/Home/Index">Click Here</a>
